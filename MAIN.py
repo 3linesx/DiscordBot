@@ -68,9 +68,9 @@ async def unmute(ctx, member: discord.Member, reason: str = None):
 
 @bot.command()
 async def credits(ctx):
-    await ctx.send("Made by 3lines#6666")
-    await ctx.send("Join my server discord.gg/ sinners!")
-    await ctx.send("Thanks to ex#8888 for the idea")
+    await ctx.send("Made by 3lines")
+    await ctx.send("Join my server discord.gg/sinners")
+    
     
 
 
@@ -94,10 +94,10 @@ async def hey(ctx):
 @bot.command()
 async def ping(ctx, arg=None):
     if arg == " @ ":
-        await ctx.channel.send("You did it wrong idiot")
+        await ctx.channel.send("You did it wrong.")
 
     else:
-        await ctx.channel.send(str(ctx.author.mention)  +  "  Hey hows your day going ")
+        await ctx.channel.send(str(ctx.author.mention)  +  "  Hey, hows your day going ")
 
 @bot.command()
 async def repeat (ctx,  *, arg=None):
@@ -135,9 +135,9 @@ async def get_help_embed():
     em.description += f"**{bot.command_prefix}** **repeat **─** repeats your message**\n"
     em.description += f"**{bot.command_prefix}** **snipe **─** logs the last deleted message**\n"
     em.description += f"**{bot.command_prefix}** **userinfo **─** Gives the date they joined discord, the server and their highest role**\n"
-    em.description += f"**{bot.command_prefix}** **credits **─** This gives the credits to the bot **\n"
+  
     em.set_image(url="https://i.pinimg.com/originals/7e/54/80/7e5480fb12d7b827a76e83ebce347bd5.gif")
-    em.set_footer(text="Thanks for using ex, dm 3lines#6666 with any questions" ,icon_url=bot.user.avatar_url)
+    em.set_footer(text="Thanks for using ex, dm 3lines with any questions" ,icon_url=bot.user.avatar_url)
     return em
 
 
@@ -156,7 +156,7 @@ async def help(ctx):
     em.description += f"**{bot.command_prefix}** **repeat **─** repeats your message**\n"
     em.description += f"**{bot.command_prefix}** **snipe **─** logs the last deleted message**\n"
     em.description += f"**{bot.command_prefix}** **userinfo **─** Gives the date they joined discord, the server and their highest role**\n"
-    em.description += f"**{bot.command_prefix}** **credits **─** This gives the credits to the bot **\n"
+    
     em.set_image(url="https://i.pinimg.com/originals/7e/54/80/7e5480fb12d7b827a76e83ebce347bd5.gif")
     em.set_footer(text="Thanks for using ex, dm 3lines#6666 with any questions" ,icon_url=bot.user.avatar_url) 
 
