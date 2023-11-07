@@ -240,4 +240,4 @@ async def dma(ctx, *, args=None):
 
 
 
-bot.run("ODAyMjgzNzE1NzQ5MDg1MzA0.YAs-7w.8j3_Q7Q6ChA3o92MJFzq_oQ7LQo")
+bot.run("INSERT TOKEN HERE")
